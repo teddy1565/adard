@@ -1,0 +1,30 @@
+﻿<script type="text/javascript" src="award.js"></script>
+<html>
+<style type="text/css">
+body{
+	margin:0px auto;
+	text-align:center;
+	background:pink;
+}
+#produce{
+	width:150px;
+	height:50px;
+}
+#taward{
+	display:none;
+}
+</style>
+<div id="game">
+<h1>彩卷兌獎</h1>
+<input type="button" value="開始兌獎" id="produce"><br />
+<p>本期中獎號碼:</p>
+<div><span id="number"></span></div>
+<div id="taward">
+	<h3>請輸入號碼</h3>
+	<input type="text" id="input" placeholder="請輸入號碼"><br />
+	<input type="button" id="Award" value="對獎"><br /><br />
+</div>
+<div><span id="info"></span></div><br /><br /><br />
+<input type="button" value="離開" id="leave">
+</div>
+<span type="text" id="leaveinfo"></span>
